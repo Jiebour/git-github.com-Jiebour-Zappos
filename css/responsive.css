@@ -1,0 +1,61 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+	.gap{height: 60px;}
+	.profile{width: 300px; height: 300px;}
+	.hobby{height: 140px; width: 140px;}
+	.hobby i{line-height: 120px; font-size: 36px;}
+	.hobby span{margin-top: -30px; font-weight: 500; font-size: 16px;}
+	.skillRow{font-size: 22px; margin-bottom: 20px;}
+	.myName{font-size:80px; padding-top: 50px;}
+	.myAim{font-size: 60px; padding-bottom: 50px;}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+	.gap{height: 50px;}
+	.profile{width: 260px; height: 260px;}
+	.hobby{height: 120px; width: 120px;}
+	.hobby i{line-height: 100px; font-size: 30px;}
+	.hobby span{margin-top: -30px; font-weight: 500; font-size: 16px;}
+	.skillRow{font-size: 18px; margin-bottom: 16px;}
+	.myName{font-size:60px; padding-top: 50px;}
+	.myAim{font-size: 55px; padding-bottom: 50px;}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.gap{height: 50px;}
+	.profile{width: 260px; height: 260px;}
+	.hobby{height: 100px; width: 100px;}
+	.hobby i{line-height: 80px; font-size: 26px;}
+	.hobby span{margin-top: -20px; font-weight: 500; font-size: 16px;}
+	.skillRow{font-size: 14px; margin-bottom: 14px;}
+	.myName{font-size:50px; padding-top: 50px;}
+	.myAim{font-size: 45px;padding-bottom: 50px;}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.profile{width: 220px; height: 220px;}	
+	.gap{height: 40px;}
+	.hobby{height: 90px; width: 90px;}
+	.hobby i{line-height: 70px; font-size: 24px;}
+	.hobby span{margin-top: -20px; font-weight: 500; font-size: 14px;}
+	.skillRow{font-size: 14px; margin-bottom: 12px;}
+	.myName{font-size:40px; padding-top: 50px;}
+	.myAim{font-size: 35px;padding-bottom: 50px;}
+}
+
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+		.profile{width: 200px; height: 200px;}
+		.gap{height: 20px;}
+	.hobby{height: 80px; width: 80px;}
+	.hobby i{line-height: 60px; font-size: 22px;}
+	.hobby span{margin-top: -18px; font-weight: 500; font-size: 14px;}	
+	.skillRow{font-size: 12px; margin-bottom: 10px;}	
+	.myName{font-size:30px; padding-top: 50px;}
+	.myAim{font-size: 25px; padding-bottom: 50px;}
+
+}

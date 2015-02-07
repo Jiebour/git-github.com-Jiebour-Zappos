@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>Zappos.Dongjie Zhang</title>
+
+    <link href="css/responsive.css" rel="stylesheet">
+       
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/basic.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="css/examples.css" />
+  <link rel="stylesheet" href="css/animate.css">
+
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="js/examples.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        //sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+            css3: true,
+            autoScrolling: false
+          });
+      testAnim("bounceInDown");      
+    });
+
+    function testAnim(x) {
+    $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+    });
+  };
+  </script>
+
+
+
+<style type="text/css">
+</style>
+
+  </head>
+  <body>
+
+
+
+<div id="fullpage">
+  <div class="section " id="section0" style="background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+  url('img/home_bg.jpg'); background-size: cover;">
+
+  <div class="container">
+  <div class="gap"></div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="img/ava.png" class="img_center img-circle profile" style="border: 4px solid #B7DB48;">
+      </div>
+      <div class="col-xs-12 center" style="">
+        <h1 id="animationSandbox" class="myName" style="">Dongjie Zhang</h1>
+        <h1 style="color:#ffffff; font-family:pictos; margin-top:14px;" class="myAim">Front End Developer</h1>
+      </div>  
+
+      <div class="col-xs-12 gap"></div>
+
+      <div class="col-xs-12 center" style="color:#ffffff;">
+        <a class="social" href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a class="social" href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a class="social" href="#"><i class="fa fa-github-square fa-3x"></i></a>
+        <a class="social" href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a class="social" href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
+      </div> 
+
+          
+    </div>
+
+  </div><!--1st container-->
+  </div>
+
+
+
+
+
+
+
+  <div class="section" id="section1">
+
+
+  <div class="container">
+    <div class="gap" style="height:100px;"></div>
+
+    <div class="row" style="text-align:left;">
+      <div class="col-xs-12">
+        <h1 style="text-transform: uppercase; text-align:center;
+color: #2c3d4f; font-family:pictos; font-size:60px;">Milestones</h1>
+    <div class="gap" style="height:30px;"></div>
+
+        <div class="line_div"></div>
+      </div>
+
+    </div>
+
+    <div class="gap" style="height:30px;"></div>
+
+<div class="row">
+
+              <div class="col-md-6 left-service" style="text-align: right;">
+
+                <div class="service-box" style="height:85px;">
+                  <i class="service-icon fa fa-child"></i>
+                  <div class="service-content">
+                    <h3>Born</h3>
+                    <p>Born at 11-27-1990 in the province with the most population, accroding to dad & mom.</p>
+                  </div>
+                </div><!-- end .service-box -->
+                <div class="service-box">
+                  <i class="service-icon fa fa-train"></i>
+                  <div class="service-content">
+                    <h3>Train</h3>
+                    <p>Went to Sichuan University. That was my first time to get to know the outside world and pandas, 08-05-2009.</p>
+                  </div>
+                </div><!-- end .service-box -->
+                <div class="service-box">
+                  <i class="service-icon fa fa-rocket"></i>
+                  <div class="service-content">
+                    <h3>"Sillicon Valley"</h3>
+                    <p>Went to the capital of China and built my first company. Also released my first IOS APP, 2014.</p>
+                  </div>
+                </div><!-- end .service-box -->
+              </div><!-- end .col-md-6 .left-service -->  
+
+              <div class="col-md-6 right-service" style="text-align: left;">
+
+                <div class="service-box">
+                  <i class="service-icon fa fa-laptop"></i>
+                  <div class="service-content">
+                    <h3>Work</h3>
+                    <p>Felt depressed and quit from China Acadamic of Science and started to be a full stack engineer.</p>
+                  </div>
+                </div><!-- end .service-box -->
+                <div class="service-box">
+                  <i class="service-icon fa fa-university"></i>
+                  <div class="service-content">
+                    <h3>Los Angeles</h3>
+                    <p>Flew across the Pacific Ocean without saying BYE to mom. But got changed to a first-class seat with luck, 08-07-2014.</p>
+                  </div>
+                </div><!-- end .service-box -->
+                <div class="service-box">
+                  <i class="service-icon fa-rocket"></i>
+                  <div class="service-content">
+                    <h3>Zappos</h3>
+                    <p>In a dream, mom told me that, son you are gonna get a internship position! I am still doubting mom's words...</p>
+                  </div>
+                </div><!-- end .service-box -->
+
+              </div><!-- end .col-md-6 .right-service -->
+            </div>    
+
+
+  </div><!--3rd container-->
+
+</div><!--3rd section-->
+
+
+
+
+
+<!--4th section-->
+
+
+<div class="section" id="section2">
+
+  <div class="container">
+
+
+    <div class="gap"></div>
+
+    <div class="row" style="text-align:left;">
+      <div class="col-xs-12">
+        <h1 style="text-align:center;color: #2c3d4f;font-weight: 800;letter-spacing: 5px;line-height: 60px;
+            font-size: 60px; font-family:pictos;">MY WORK</h1>
+        <div class="line_div"></div>
+      </div>
+
+
+    <ul class="photo-grid">
+      <li>
+        <figure>
+          <img src="img/work1.jpg" height="300" width="400" alt="Arc de Triomphe">
+          <figcaption><p class="titleP">Crystal Orange Hotel
+                      <br/>
+                      <smallP>It is a chain hotel. I am responsible for the official website on mobile devices</smallP></p>
+                      </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure>
+          <img src="img/work2.jpg" height="300" width="400" alt="Arc de Triomphe">
+          <figcaption><p class="titleP">Nice Creal
+                      <br/>
+                      <smallP>It is a chain take-out company. And I am responsible for the official website on mobile devices</smallP></p>
+                      </figcaption>
+        </figure>
+       
+      </li>
+
+      <li>
+        <figure>
+          <img src="img/work3.jpg" height="300" width="400" alt="Arc de Triomphe">
+          <figcaption><p class="titleP">FBT
+                      <br/>
+                      <smallP>It is now the largest IP V6 based downloading platform. I coded the whole front-end.</smallP></p>
+                      </figcaption>
+        </figure>
+      </li>
+      
+
+      <li>
+        <figure>
+          <img src="img/work4.jpg" height="300" width="400" alt="Arc de Triomphe">
+          <figcaption><p class="titleP">Ji Yang San Bao
+                      <br/>
+                      <smallP>Hot pot company. I am responsible for its website on PC.</smallP></p>
+                      </figcaption>
+        </figure>
+      </li>            
+</ul>
+
+
+    </div><!--the row-->
+
+
+
+  </div><!--4th container-->
+
+</div><!--4th section-->
+
+
+
+
+
+<div class="section" id="section3">
+
+  <div class="container">
+
+
+    <div class="gap" style="height:80px;"></div>
+
+    <div class="row" style="text-align:left;">
+      <div class="col-xs-12">
+        <h1 style="text-align:center;color: #2c3d4f;font-weight: 800;letter-spacing: 5px;line-height: 60px;
+            font-size: 60px; font-family:pictos;">MY Skills</h1>
+        <div class="line_div"></div>
+      </div>
+    </div><!--the row-->
+
+    <div class="row skillRow">
+      <div class="col-xs-12 col-md-6 col-lg-6">
+        <div>
+        Java:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        </div>
+
+        <div>
+        HTML5:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        </div>
+
+        <div>
+          CSS3:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        </div>
+
+        <div>
+          JS/jQuery:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        </div>
+      </div>
+
+
+      <div class="col-xs-12 col-md-6 col-lg-6">
+         <div>
+        PHP:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+         </div> 
+
+         <div>
+           AngularJS:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+         </div>
+
+         <div>
+           LESS:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+         </div>
+
+         <div>
+           Python:
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x can"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+        <i class="fa fa-bomb fa-3x cant"></i>
+         </div>
+
+      </div>
+    </div>
+
+
+
+
+
+  </div><!--5th container-->
+
+</div><!--5th section-->
+
+
+
+
+
+
+
+
+</div><!--full page-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+});
+</script>
+
+  </body>
+</html>
